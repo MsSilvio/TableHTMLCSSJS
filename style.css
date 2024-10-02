@@ -1,0 +1,80 @@
+/* Table cells */
+*{
+    font-size: 12px;
+    font-family: Tahoma;
+}
+/*table element*/
+table,td,th{
+    border: 1px solid gray;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 7px;
+}
+/* Table */
+table {
+    font-size: 12px;
+    width: 70%;
+    border-spacing: 0px;
+    border: 0.5px ;
+    padding: 1px;
+    background-color: #3f3832;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-bottom: 1px solid #999999;
+    box-shadow: 1px 1px 3px -1px #000000;
+    margin: 36px auto;
+    border-spacing: 2px;
+}
+/* Table head */
+.table-title {
+    background-color: #539fea;
+    font-weight: bold;
+    text-align: center;
+    height: 15px;
+    color: #fff;
+}
+/* Table subhead or field */
+.table-head {
+    color: rgb(51, 51, 51);    
+    font-weight: 600;
+    background-color: lightgray;
+    height: 35px;
+    padding: 10px;
+}
+/* Courses already taken */
+.table-body-taken {
+    background-color: skyblue;
+    color: rgb(51, 51, 51);
+    height: 45px;
+}
+/* Courses currently taken */
+.table-body-in-progress {
+    background-color: yellow;
+    color: rgb(51, 51, 51);
+    height: 45px;
+}
+/* Courses not taken */
+.table-body-not-taken {
+    color: rgb(51, 51, 51);
+    background-color: white;
+    height: 35px;
+}
+/* Body */
+body {
+    font-family: Tahoma;
+    text-align: center;
+    font-size: 12px;
+    padding: 1px;
+    background-color: whitesmoke;
+}
+/* Paragraph */
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+/* Division */
+div {
+    margin: 1px;
+    padding: 1px;
+}
